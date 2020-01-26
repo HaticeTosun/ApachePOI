@@ -24,7 +24,7 @@ public class TestMockData {
 
         Object[][] resultData = new Object[rowCount][cellCount];
 
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < rowCount; i++) {
             Row row = datatypeSheet.getRow(i);
             if(row != null) {
                 for (int j = 0; j < cellCount; j++) {
