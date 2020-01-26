@@ -45,6 +45,5 @@ public class Task1Test {
     @Test(dataProvider = "representative")
     public void test(String c1, String c2, String c3, String c4){
         System.out.print(c1 + c2 + c3 + c4);
-        System.out.println();
     }
 }
